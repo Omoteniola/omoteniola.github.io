@@ -1,0 +1,54 @@
+body{
+	  background-image: url(bouquet.jfif), url(redroses.jfif), url(garden_of_flowers.jfif);
+  background-position: right bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 300px 300px;
+}
+
+.btn-primary{
+	background-color: yellow;
+}
+.btn-primary:hover {
+	transition-duration: 1s;
+	transform: skew(30deg);
+	transform-style: preserve-3d;
+	background-color: green;
+}
+
+.btn-secondary:hover {
+	transition-duration: 1s
+	transform: skew(30deg);
+	background-color: pink;
+	color: black;
+}
+
+.card {
+	background-image:url(apples.jfif); 
+	color:white;
+}
+
+.card2 {
+	background-image:url(bananas.jfif);
+}
+
+.card3 {
+	background-image:url(tangerine.jfif);
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+
+}
+
+.table {
+	background-color: #67954;
+
+}
+
+.table:hover {
+	transition-duration: 3s;
+	transform:rotateY(45deg);
+	background-image: url(laptop.jpg); 
+}
