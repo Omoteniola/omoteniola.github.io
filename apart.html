@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<title>Form Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p>Kindly fill the form below</p>
+<form>
+<div>
+    <h3>Background Information</h3>
+	NAME: <br><input type="text" placeholder="Full Name" name="name" required=""><br><br>
+	COMPANY NAME: <br><input type="text" placeholder="Company Name" name="company name" required=""><br><br>
+	EMAIL: <br><input type="email" placeholder="e-Mail" name="email" required><br><br>
+	CONTACT NUMBER: <br><input type="number" placeholder="Phone Number" name="contact number" required><br><br>
+</div>
+<div>
+	<h3>Project Details</h3>
+	What name do you want in your logo?<br><input type="text" name="logo name" required><br><br>
+	What is your brand Slogan/Tagline?<br><input type="text" placeholder="e.g. We Move the World!" name="slogan"><br><br>
+	What industry is your business in?<br>
+	<select name="industry" required="">
+		<option value="Mass media. Broadcasting. News media. Publishing. Internet">Mass media. Broadcasting. News media. Publishing. Internet</option>
+		<option value="Financial services">Financial services</option>
+		<option value="Insurance">Insurance</option>
+		<option value="Health Care">Health Care</option>
+		<option value="Hospitality">Hospitality</option>
+		<option value="Information">Information</option>
+		<option value="Software">Software</option>
+		<option value="Entertainment">Entertainment</option>
+		<option value="Music">Music</option>
+		<option value="Fashion & Style">Fashion & Style</option>
+		<option value="Education">Education</option>
+		<option value="Transportation">Transportation</option>
+		<option value="Agriculture">Agriculture</option>
+		<option value="Foods & Nutrition">Foods & Nutrition</option>
+		<option value="Others">Others</option>
+	</select><br><br>
+	Do you have an existing website?<br>
+	<input type="radio" name="website" value="yes">Yes<br>
+	<input type="radio" name="website" value="no">No<br><br>
+	What is (are) your color prefernce(s)?<br>
+	<input type="text" name="color" required><br><br>
+</div>
+	<input type="Submit">
+	<input type="Reset"><br><br>
+</form>
+</body>

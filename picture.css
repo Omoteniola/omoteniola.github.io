@@ -1,0 +1,71 @@
+body{
+	background-image: url(forest.jfif);
+  background-size: 1000px;
+  background-repeat:repeat;
+}
+
+ .container{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	
+ }
+
+h1{
+	font-family: cursive;
+  background-image: url(sky.jfif);
+	font-size: 3em;
+	color:#B8860B; 
+	border-bottom: 2px solid gold;
+	border-right: 2px solid gold;
+	width: 600px;
+	text-align: center;
+	box-shadow: 5px 5px 6px gold
+	}
+
+img{
+ 	width: 450px;
+ 	height: 300px;
+ 	margin: 10px;
+ 	transition: all 1s;
+ 	margin-top: 10px;
+ }
+
+ img:hover {
+ 	transform: scale(1.1);
+ }
+
+.panel {
+  margin: 100px;
+}
+
+.box {
+  background-image: url(sky.jfif);
+  border-radius: 5px;
+  display: inline-block;
+  height: 80px;
+  margin: 20px;
+  width: 80px;
+  box-shadow: 5px 3px gold;
+  text-decoration: underline;
+  text-decoration-color: gold;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: cursive;
+ }
+
+  .box:hover {
+    transform: scale(1.4);
+  }
+
+.box1 {
+  transition: all 1.3s;
+}
+
+.box2 {
+  transition: all 1.3s 0.5s;
+}
+
+.box3 {
+  transition: all 1.3s 1s;
+}

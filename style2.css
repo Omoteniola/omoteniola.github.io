@@ -1,0 +1,50 @@
+body{
+	background-image: url(2background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: all;
+}
+h2{
+   color: ash;
+   border:3px orange dashed;
+   text-align:center; 
+   color:black;
+   border-radius:50px;
+   background-color:yellow;
+   text-shadow: 3px 2px red;
+}
+#img{
+	float:right;
+}
+div {
+  width: 1000px;
+  border: 15px solid rgb(77, 0, 0);
+  padding: 50px;
+  margin: 20px;
+  outline-style: double;
+  outline-color: rgb(179, 0, 0)
+}
+input[type=submit] {
+	padding: 1em 0.5em;
+	text-decoration:inherit;
+	cursor: progress;
+	background-color:rgb(153, 61, 0);
+	border-top-width: 15px;
+	border-top-color: black;
+}
+ input[type=reset] {
+    padding: 1em 0.5em;
+	text-decoration:inherit;
+	cursor: progress;
+	background-color:rgb(153, 61, 0);
+	border-top-width: 15px;	
+	border-top-color: black;
+ }
+footer{
+	text-align: center;
+	border:3px orange dashed;
+	color:black;
+	border-radius:50px;
+	background-color: yellow;
+}
