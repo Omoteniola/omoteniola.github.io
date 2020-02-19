@@ -62,6 +62,12 @@ img{
   transition: all 1.3s;
 }
 
+.box1:hover {
+  transition-duration: 1s
+  transform: scale(1.4);
+
+}
+
 .box2 {
   transition: all 1.3s 0.5s;
 }
